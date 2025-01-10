@@ -45,7 +45,7 @@ nav {
   letter-spacing: 0%;
   text-align: left;
 }
-.btn-signin {
+.btn-sign-in {
   padding: 15px 30px 15px 30px;
   margin: 0px 10px;
   box-sizing: border-box;
@@ -58,7 +58,7 @@ nav {
   text-align: center;
   transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
-.btn-signin:hover{
+.btn-sign-in:hover{
     padding: 18px 40px 18px 40px;
     background: rgb(22, 43, 147);
     color: white;
