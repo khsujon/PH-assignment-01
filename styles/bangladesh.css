@@ -109,3 +109,47 @@ nav {
   text-align: left;
   margin: 40px 160px 40px 160px;
 }
+
+.pillars-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+  margin: 40px 160px 40px 160px;
+}
+
+.pillar {
+  width: 302px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  margin: 0px 24px;
+}
+
+.pillar-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 12px 0px;
+}
+
+.pillar-details {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px 0px;
+}
+
+.pillar-image {
+  width: 62px;
+  height: 62px;
+  left: 1px;
+  top: 1px;
+}
