@@ -9,23 +9,22 @@
   background: rgb(245, 245, 245);
 }
 .btn-primary {
-    padding: 17px 34px;
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    margin: 24px 0px;
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  padding: 17px 34px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  margin: 24px 0px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn-primary:hover {
-    padding: 20px 40px;
-    background: rgb(22, 43, 147);
-    color: white;
+  padding: 20px 40px;
+  background: rgb(22, 43, 147);
+  color: white;
 }
-
 
 /* Nav section */
 nav {
@@ -58,11 +57,10 @@ nav {
   text-align: center;
   transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
-.btn-sign-in:hover{
-    padding: 18px 40px 18px 40px;
-    background: rgb(22, 43, 147);
-    color: white;
-
+.btn-sign-in:hover {
+  padding: 18px 40px 18px 40px;
+  background: rgb(22, 43, 147);
+  color: white;
 }
 
 /* banner section */
@@ -95,8 +93,19 @@ nav {
   margin: 16px 0px;
 }
 
-.banner-image{
-    width: 474.03px;
-    height: 400px;
-    
+.banner-image {
+  width: 474.03px;
+  height: 400px;
+}
+
+/* Main section */
+.main-head {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 40px 160px 40px 160px;
 }
