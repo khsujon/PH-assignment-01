@@ -188,6 +188,23 @@ nav {
   border-radius: 16px;
   background: rgba(84, 144, 245, 0.2);
 }
+.vcard-1-btn {
+  padding: 11px 20px 11px 20px;
+  margin: 24px 0px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(84, 144, 245);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.vcard-1-btn:hover {
+  padding: 20px 40px;
+  background: rgb(61, 115, 208);
+  color: white;
+}
 
 .vcard-2 {
   width: 410.67px;
@@ -198,13 +215,139 @@ nav {
   border-radius: 16px;
   background: rgb(198, 228, 214);
 }
+.vcard-2-btn {
+  padding: 11px 20px 11px 20px;
+  margin: 24px 0px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(9, 161, 92);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.vcard-2-btn:hover {
+  padding: 20px 40px;
+  background: rgb(0, 106, 80);
+  color: white;
+}
 
 .vcard-3 {
   width: 410.67px;
-  
   padding: 32px;
-  /* margin: 0px 24px; */
   box-sizing: border-box;
   border-radius: 16px;
   background: rgb(247, 235, 207);
+}
+.vcard-3-btn {
+  padding: 11px 20px 11px 20px;
+  margin: 24px 0px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 194, 57);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.vcard-3-btn:hover {
+  padding: 20px 40px;
+  background: rgb(255, 167, 38);
+  color: white;
+}
+
+.younus {
+  padding: 48px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 20px; /* Adjust the gap here */
+}
+.y-details {
+  color: rgba(14, 14, 14, 0.8);
+  margin: 0px 0px 12px 0px;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.y-name {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 4px 0px;
+}
+
+/* opinion-section */
+.opinion-section {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.opinion-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.opinion-table-wrapper {
+  overflow-x: auto;
+}
+
+.opinion-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+.opinion-table thead {
+  background-color: #e2f4eb;
+}
+
+.opinion-table th,
+.opinion-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.opinion-table th {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.opinion-table td select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+.opinion-table td select:hover {
+  border-color: #007b5e;
+}
+
+.opinion-table td select:focus {
+  outline: none;
+  border-color: #007b5e;
+}
+
+.opinion-section {
+  max-width: 800px;
+  margin: 0 auto;
 }
