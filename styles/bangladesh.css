@@ -121,14 +121,14 @@ nav {
 
 .pillar {
   width: 302px;
-
+  height: 244px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
 
   background: rgb(255, 255, 255);
   padding: 32px;
-  margin: 0px 24px;
+  margin: 0px 10px;
 }
 
 .pillar-title {
@@ -152,4 +152,59 @@ nav {
   height: 62px;
   left: 1px;
   top: 1px;
+}
+
+/* vision section */
+.vision-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24;
+  margin: 40px 160px 40px 160px;
+}
+
+.vision-head {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin: 40px 0 10px 0;
+}
+
+.vision-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0px;
+}
+
+.vcard-1 {
+  width: 410.67px;
+
+  padding: 32px;
+  /* margin: 0px 24px; */
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.vcard-2 {
+  width: 410.67px;
+
+  padding: 32px;
+  margin: 0px 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+.vcard-3 {
+  width: 410.67px;
+  
+  padding: 32px;
+  /* margin: 0px 24px; */
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
 }
