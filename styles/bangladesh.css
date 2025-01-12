@@ -268,7 +268,7 @@ nav {
   background: rgb(255, 255, 255);
   background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
-  background-position: 24px 20px; /* Adjust the gap here */
+  background-position: 24px 20px;
 }
 .y-details {
   color: rgba(14, 14, 14, 0.8);
@@ -289,7 +289,7 @@ nav {
 }
 
 /* opinion-section */
-.opinion-head{
+.opinion-head {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 40px;
@@ -344,4 +344,52 @@ nav {
   border-radius: 4px;
   background-color: rgb(198, 228, 214);
   font-size: 14px;
+}
+
+.recent-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 48px;
+  height: 306px;
+  margin: 24px 0px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.rcard-img {
+  height: 306px;
+  width: 1000px;
+  margin: 0px 32px;
+  border-radius: 24px;
+  background: url("../assets/satelite.png");
+  background-size: cover;
+}
+.rcard-details {
+  display: flex;
+  flex-direction: column;
+}
+.rcard-details-header {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin: 12px 0px;
+}
+.rcard-btn {
+  width: 145px;
+  height: 48px;
+  padding: 13px 26px 13px 26px;
+  margin: 32px 0px;
+  border-radius: 8px;
+  font-family: Fira Sans;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
