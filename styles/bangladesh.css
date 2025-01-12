@@ -378,8 +378,7 @@ nav {
   margin: 12px 0px;
 }
 .rcard-btn {
-  width: 145px;
-  height: 48px;
+  width: 160px;
   padding: 13px 26px 13px 26px;
   margin: 32px 0px;
   border-radius: 8px;
@@ -392,4 +391,10 @@ nav {
   letter-spacing: 0%;
   text-align: left;
   transition: padding 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.rcard-btn:hover {
+  padding: 15px 30px 15px 30px;
+  background: rgb(22, 43, 147);
+  color: white;
 }
